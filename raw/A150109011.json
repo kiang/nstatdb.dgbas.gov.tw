@@ -1,0 +1,236 @@
+{
+    "meta": {
+        "id": "q+i70YzmZLJGOhjd74UpV4WWc9o=",
+        "test": false,
+        "prepared": "2022-09-10 08:41:33 2578",
+        "sender": {
+            "id": "dgbas",
+            "name": "行政院主計總處"
+        },
+        "links": [
+            {
+                "href": "https:\/\/nstatdb.dgbas.gov.tw\/dgbasAll\/webMain.aspx?sdmx\/A150109011\/\/",
+                "rel": "request"
+            }
+        ]
+    },
+    "data": {
+        "dataSets": [
+            {
+                "action": "Information",
+                "series": {
+                    "0": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "1": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "2": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "3": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "4": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "5": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "6": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "7": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "8": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "9": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "10": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "11": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "12": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "13": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "14": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    },
+                    "15": {
+                        "observations": {
+                            "0": [
+                                0
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "structure": {
+            "links": [
+                {
+                    "href": "https:\/\/nstatdb.dgbas.gov.tw\/dgbasAll\/webMain.aspx?sdmx\/A150109011\/all",
+                    "rel": "dataflow"
+                }
+            ],
+            "name": "身心障礙人數(新制ICF八大分類)",
+            "dimensions": {
+                "series": [
+                    {
+                        "keyPosition": 0,
+                        "id": "fldid",
+                        "name": "指標",
+                        "values": [
+                            {
+                                "id": "1",
+                                "name": "總人數-合計"
+                            },
+                            {
+                                "id": "2",
+                                "name": "總人數-男"
+                            },
+                            {
+                                "id": "3",
+                                "name": "總人數-女"
+                            },
+                            {
+                                "id": "4",
+                                "name": "神經系統構造及精神、心智功能"
+                            },
+                            {
+                                "id": "5",
+                                "name": "眼、耳及 相關構造與感官功能及疼痛"
+                            },
+                            {
+                                "id": "6",
+                                "name": "涉及聲音與言語構造及其功能"
+                            },
+                            {
+                                "id": "7",
+                                "name": "循環、造血、免疫與呼吸系統構造及其功能"
+                            },
+                            {
+                                "id": "8",
+                                "name": "消化、新陳代謝與內分泌系統相關構造及其功能"
+                            },
+                            {
+                                "id": "9",
+                                "name": "泌尿與生殖系統相關構造及其功能"
+                            },
+                            {
+                                "id": "10",
+                                "name": "神經、肌肉 、骨骼之移動相關構造及其功能"
+                            },
+                            {
+                                "id": "11",
+                                "name": "皮膚與相關構造及其功能"
+                            },
+                            {
+                                "id": "12",
+                                "name": "兩類別以上者"
+                            },
+                            {
+                                "id": "13",
+                                "name": "舊制轉換新制暫無法歸類者"
+                            },
+                            {
+                                "id": "14",
+                                "name": "占總人口比例(%)-合計"
+                            },
+                            {
+                                "id": "15",
+                                "name": "占總人口比例(%)-男"
+                            },
+                            {
+                                "id": "16",
+                                "name": "占總人口比例(%)-女"
+                            }
+                        ],
+                        "role": "REF_FLDID"
+                    }
+                ],
+                "observation": [
+                    {
+                        "id": "ym",
+                        "name": "統計期",
+                        "values": [
+                            {
+                                "id": "2019",
+                                "name": "108年(9~9月)"
+                            }
+                        ],
+                        "role": "TIME_PERIOD"
+                    }
+                ]
+            }
+        }
+    }
+}
